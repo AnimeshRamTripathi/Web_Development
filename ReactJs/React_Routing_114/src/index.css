@@ -1,0 +1,20 @@
+nav{
+  min-height: 100px;
+  justify-content:center;
+
+align-items: center;
+  display: flex;
+  gap: 34px;
+  background-color: black;
+  color: yellow
+
+  
+}
+a li{
+  color:  yellowgreen;
+}
+.red
+{
+  background-color: red;
+  color: whitesmoke;
+}
