@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: black;
+}
+.main
+{
+    color: black;
+   
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: black;
+    position: relative;   
+    object-fit: cover;  
+    z-index: 1;
+    animation: animate 2s ease-in-out 1 ;
+
+    
+}
+/* .vid
+{position: absolute;
+
+    z-index: 0;
+    opacity: 0.4;
+    width: 1950px;
+    top: 0px;
+    left: 0px;
+  
+} */
+.img
+{
+    padding: 130px;
+   
+    position: absolute;
+
+   
+}
+.im
+{ border-radius:150px;
+    color: black;
+    background-image: bl;
+    object-fit: cover;
+    border: 4px solid white;
+
+}
+.img:hover
+{
+    border-radius: 0px;
+}
+
+.content
+{ width: 1350px;
+    height: 400px;
+    position:absolute;
+    display: flex;
+    flex-direction: row;
+    top:120px;
+    left: 120px;
+    color:beige;
+    opacity: 0;
+    background-color: black;
+    border-radius: 20px;
+    border: 0px solid red;
+    margin: 0;
+  
+   
+    
+    
+ 
+    
+   
+
+}
+.content:hover
+{
+    border: 4px solid red;
+}
+.main>h1
+{
+    color: rgb(226, 226, 219);
+    font-family:'Josefin Sans',sans-serif;
+    transition: 0.6s;
+    position: absolute;
+    left: 640px;
+    top: 70px;
+}
+.main>h1::after
+{
+    content: "";
+    position: absolute;
+    background-color: red;
+    width: 0;
+    height: 3px;
+    left: 0;
+    bottom: -10px;
+    transition: 0.2s;
+}
+.main>h1:hover::after
+{
+   width: 100%;
+  
+
+}
+.text
+{ 
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    
+    
+    font-family: 'Josefin Sans',sans-serif;
+    left: 235px;
+}
+.content:hover{
+    opacity: 0.4;
+}
+.img-overlay
+{position: absolute;
+ padding: 130px;
+ height: 480px;
+ width: 435px;
+ background-color: black;
+ top: 130px;
+ left: 130px;
+ opacity: 0.5;
+}
+                .content > *
+                {
+                    transform: translateY(10px);
+                    transition: transform 0.6s;
+
+                }
+.content:hover > *
+{
+    transform: translateY(40px);
+
+    
+
+
+}
+.im1
+{position: absolute;
+    top: 600px;
+    left: 1150px;
+}
+.content1
+{ width: 1450px;
+    height: 400px;
+    position:absolute;
+    display: flex;
+    flex-direction: row;
+    top:550px;
+    left: 10px;
+    color:beige;
+    opacity: 0;
+    background-color: black;
+    border-radius: 20px;
+    border: 0px solid red;
+    object-fit: cover;
+  
+}
+.content1:hover{
+    opacity: 0.4;
+}
+.content1:hover
+{
+    border: 4px solid red;
+}
+.text1
+{padding: 0px;
+    font-size: 20px;
+    position: absolute;
+
+    right: 150px;
+    position: absolute;
+    top: 20px;
+   padding: 20px;
+    font-family: 'Josefin Sans',sans-serif;
+}
+
+.content1 > *
+{
+    transform: translateY(10px);
+    transition: transform 0.6s;
+
+}
+.content1:hover > *
+{
+transform: translateY(40px);
+}
+.content2
+{ width: 1350px;
+    height: 400px;
+    position:absolute;
+    display: flex;
+    flex-direction: row;
+    top:1050px;
+    left: 100px;
+    color:beige;
+    opacity: 0;
+    background-color: black;
+    border-radius: 20px;
+    border: 0px solid red;
+    margin: 0;
+    z-index: 2;
+  
+}
+.text2
+{ 
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    
+    font-family: 'Josefin Sans',sans-serif;
+    left: 235px;
+}
+.content2:hover{
+    opacity: 0.4;
+}
+
+
+.content2:hover
+{
+    border: 4px solid red;
+}
+.content2 > *
+{
+    transform: translateY(10px);
+    transition: transform 0.6s;
+
+}
+.content2:hover > *
+{
+transform: translateY(40px);
+
+}
+.im2
+{position: absolute;
+    top: 1070px;
+    left: 0px;
+ 
+    border-radius: 100px;
+
+}
+.im3
+{position: absolute;
+    top: 1590px;
+    left: 1150px;
+}
+.content3
+{ width: 1450px;
+    height: 400px;
+    position:absolute;
+    display: flex;
+    flex-direction: row;
+    top:1550px;
+    left: 10px;
+    color:beige;
+    opacity: 0;
+    background-color: black;
+    border-radius: 20px;
+    border: 0px solid red;
+    object-fit: cover;
+    z-index: 2;
+  
+}
+.content3:hover{
+    opacity: 0.4;
+}
+.content3:hover
+{
+    border: 4px solid red;
+}
+.text3
+{padding: 0px;
+    font-size: 20px;
+    position: absolute;
+    color: beige;
+
+    right: 150px;
+    position: absolute;
+    top: 20px;
+   padding: 20px;
+    font-family: 'Josefin Sans',sans-serif;
+}
+
+.content3 > *
+{
+    transform: translateY(10px);
+    transition: transform 0.6s;
+
+}
+.content3:hover > *
+{
+transform: translateY(40px);
+}
+@keyframes animate {
+	0% {
+		transform: scale(0, 0.005);
+	}
+	50% {
+		transform: scaleY(0.005);
+	}
+	100% {
+		transform: scale(1, 1);
+	}
+}
+/* @keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translateY(50%);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(-50%);
+	}
+} */
+
+/* @keyframes fadeInText {
+	from {
+		opacity: 0;
+		transform: translateY(50%);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0%);
+	}
+} */
+/* main>h1
+{
+    animation: fadeInText 3s ease-in-out delay 2s;
+} */

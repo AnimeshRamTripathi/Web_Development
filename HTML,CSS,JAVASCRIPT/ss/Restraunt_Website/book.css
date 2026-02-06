@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Varela+Round&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+    font-family: "Varela Round", "Sans Serif";
+    background-color: #F1F8FF;
+  }
+  h1{
+    font-size: 5vmax;
+    font-family: "Pacifico";
+ color: orange;
+}
+  .book{
+    padding: 20px 0 0 0 ;
+    height: 100%;
+    width: 100%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* text-align: center; */
+  }
+  a {
+    text-decoration: none;
+    color: white;
+}
+button{
+  background-color: orange;
+  color: white;
+  padding: 10px;
+  border: 0;
+}

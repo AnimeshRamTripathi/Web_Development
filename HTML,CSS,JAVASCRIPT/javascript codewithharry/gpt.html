@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animesh Ram Tripathi - Portfolio</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        header {
+            background-color: #1f1f1f;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        header h1 {
+            margin: 0;
+            animation: fadeInDown 1s ease-out;
+        }
+        .container {
+            padding: 20px;
+            animation: fadeIn 1s ease-out;
+        }
+        .about-me, .portfolio, .contact {
+            margin-bottom: 40px;
+        }
+        .portfolio-item {
+            background-color: #282828;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+        .portfolio-item:hover {
+            transform: scale(1.05);
+            background-color: #383838;
+        }
+        .contact-info {
+            background-color: #282828;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        a {
+            color: #1e90ff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            color: #63a4ff;
+            text-decoration: underline;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Animesh Ram Tripathi</h1>
+    </header>
+    <div class="container">
+        <section class="about-me">
+            <h2>About Me</h2>
+            <p>My name is Animesh Ram Tripathi. I am a student of IIIT Nagpur pursuing my B.Tech degree in Computer Science and Engineering. Currently, I'm in my second year. I am a 2-star coder at CodeChef. My hometown is Gorakhpur, Uttar Pradesh. I love playing badminton.</p>
+        </section>
+        <section class="portfolio">
+            <h2>Portfolio</h2>
+            <div class="portfolio-item">
+                <h3>Project 1</h3>
+                <p>Description of Project 1.</p>
+            </div>
+            <div class="portfolio-item">
+                <h3>Project 2</h3>
+                <p>Description of Project 2.</p>
+            </div>
+            <!-- Add more portfolio items as needed -->
+        </section>
+        <section class="contact">
+            <h2>Contact Information</h2>
+            <div class="contact-info">
+                <p>Email: <a href="mailto:animesh ram tripathi">animesh ram tripathi</a></p>
+                <p>Phone: 8810821835</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
