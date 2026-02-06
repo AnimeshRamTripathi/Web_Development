@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>'Spotify - Web Player: Music for everyone'</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="utility.css">
+
+<body>
+<div class="container flex black">
+  <div class="left">
+    <div class="home grey rounded m-1 p-1">
+      <div class="close invert">
+    <img src="img/close.svg" alt="closee" height="50px"
+    width="50px"> 
+    </div>
+      <img  class="invert logoo" src= "img/logo.svg" alt="spotify">
+
+    <ul >
+        <li  > <img class="invert " src="img/home.svg" alt="HOME">HOME </li>
+        <li > <img  class="invert " src="img/search.svg" alt="SEARCH"> SEARCH </li>
+    </ul>
+</div>
+<div class="library grey rounded m-1 p-1">
+    <div class="heading">
+        <img class="invert" src="img/LIBRARY.svg" alt="LIBRARY" height="20px">
+        <h2> YOUR LIBRARY  </h2>
+    </div>
+    <div class="songlist ">
+      <ul >
+       
+      </ul>
+
+    </div>
+    <div class="footer">
+        <a href="https://www.spotify.com/in-en/legal/" data-encore-id="textLink">
+            <span data-encore-id="type">Legal</span>
+          </a>
+        
+        <div>
+          <a href="https://www.spotify.com/in-en/safetyandprivacy/" data-encore-id="textLink">
+            <span data-encore-id="type">Safety & Privacy Center</span>
+          </a>
+        </div>
+        <div>
+          <a href="https://www.spotify.com/in-en/legal/privacy-policy/" data-encore-id="textLink">
+            <span data-encore-id="type">Privacy Policy</span>
+          </a>
+        </div>
+        <div>
+          <a href="https://www.spotify.com/in-en/legal/cookies-policy/" data-encore-id="textLink">
+            <span data-encore-id="type">Cookies</span>
+          </a>
+        </div>
+        <div>
+          <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3" data-encore-id="textLink">
+            <span data-encore-id="type">About Ads</span>
+          </a>
+        </div>
+        <div>
+          <a href="https://www.spotify.com/in-en/accessibility/" data-encore-id="textLink">
+            <span data-encore-id="type">Accessibility</span>
+          </a>
+        </div>
+    </div>
+    
+</div>
+
+</div>
+
+  
+  
+ 
+
+
+<div class="right grey  ">
+<div class="header flex ">
+  
+   
+
+ 
+    <div class="nav">
+       <img class="hamburger" src="img/menu-01.svg" 
+       style="height: 40px;"
+       alt="menu">
+        <svg class="invert" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+            <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+        <svg class="invert" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
+            <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+    </div>
+    <div class="buttons">
+        <button class="signupbtn">Sign Up</button>
+        <button class="loginbtn" >Log in</button>
+    </div>
+
+</div>
+<div class="spotifyPlaylists">
+    <h1>Spotify Playlists</h1>
+    <div class="cardContainer">
+    <!-- <div  data-folder="animesh"  class="card">
+        <div  class="play">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+                <circle cx="24" cy="24" r="24" fill="green"/>
+                <path d="M32.8354 23.4988C33.4848 23.8987 33.4848 25.1013 32.8354 25.5012L20.5422 33.7678C19.8928 34.1677 19.0625 33.6664 19.0625 32.7666L19.0625 16.2334C19.0625 15.3336 19.8928 14.8323 20.5422 15.2322L32.8354 23.4988Z" fill="black"/>
+            </svg>
+          
+        </div>
+        <img src="https://i.scdn.co/image/ab67706f00000002cd17d41419faa97069e06c16" alt="sleep">
+        <h3>Sleep</h2>
+        <p>Gentle Ambient Piano to Fall you Asleep</p>
+    </div>
+    <div data-folder="kush" class="card">
+      <div  class="play">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+              <circle cx="24" cy="24" r="24" fill="green"/>
+              <path d="M32.8354 23.4988C33.4848 23.8987 33.4848 25.1013 32.8354 25.5012L20.5422 33.7678C19.8928 34.1677 19.0625 33.6664 19.0625 32.7666L19.0625 16.2334C19.0625 15.3336 19.8928 14.8323 20.5422 15.2322L32.8354 23.4988Z" fill="black"/>
+          </svg>
+        
+      </div>
+      <img src="https://i.scdn.co/image/ab67706f00000002cd17d41419faa97069e06c16" alt="sleep">
+      <h3>Sleep</h2>
+      <p>Gentle Ambient Piano to Fall you Asleep</p>
+  </div>
+  <div class="card">
+    <div data-folder="ranu" class="play">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+            <circle cx="24" cy="24" r="24" fill="green"/>
+            <path d="M32.8354 23.4988C33.4848 23.8987 33.4848 25.1013 32.8354 25.5012L20.5422 33.7678C19.8928 34.1677 19.0625 33.6664 19.0625 32.7666L19.0625 16.2334C19.0625 15.3336 19.8928 14.8323 20.5422 15.2322L32.8354 23.4988Z" fill="black"/>
+        </svg>
+      
+    </div>
+    <img src="https://i.scdn.co/image/ab67706f00000002cd17d41419faa97069e06c16" alt="sleep">
+    <h3>Sleep</h2>
+    <p>Gentle Ambient Piano to Fall you Asleep</p>
+</div> -->
+</div>
+</div>
+<div class="playbar">
+ <div class="seekbar">
+  <div class="circle">
+  </div>
+
+
+  </div> 
+<div class="abovebar">
+
+  <div class="songinfo"></div>
+
+  <div class="songsbutton">
+  
+    <img id="previous" src="img/previous.svg" alt="previous">
+  <img id="play" src="img/play.svg" alt="play">
+  <img id="next" src="img/next.svg" alt="next">
+
+</div>
+<div class="timevol">
+<div class="songtime"></div>
+<div class="volume">
+  <img src="img/volume-up.svg" alt="volume" height="20px">
+  <div class="range">
+    <input type="range" name="volume" id="volumecontroller">
+  </div>
+</div>
+</div>
+</div>
+
+
+
+</div>
+</div>ˀ
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
